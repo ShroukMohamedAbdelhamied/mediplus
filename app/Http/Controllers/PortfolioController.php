@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PortfolioController extends Controller
 {
     public function portfolio(){
-        $title = "portfolio";
+        $title = "Portfolio";
         return view('portfolio', compact('title'));
     }
 }
